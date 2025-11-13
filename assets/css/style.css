@@ -1,1 +1,31 @@
-/* style placeholder */
+/* Bloom Beauty Studio — Full Styles */
+* {margin:0;padding:0;box-sizing:border-box;}
+body {font-family:'Montserrat',sans-serif;background:#fff;color:#333;line-height:1.6;}
+h1,h2,h3 {font-family:'Cormorant Garamond',serif;font-weight:600;color:#222;}
+header.header {width:100%;background:#fff;padding:20px 50px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #f3d6e4;position:sticky;top:0;z-index:100;}
+.logo img {height:90px;}
+.nav a {margin-left:25px;text-decoration:none;color:#333;font-weight:500;transition:.3s;}
+.nav a:hover,.nav .active {color:#e77ab6;}
+.hero {padding:140px 50px;text-align:center;}
+.btn-primary {padding:15px 30px;background:#e77ab6;color:#fff;border-radius:40px;text-decoration:none;font-weight:600;transition:.3s;}
+.btn-primary:hover {background:#d668a5;}
+.btn-secondary {padding:15px 30px;background:#fff;color:#e77ab6;border:2px solid #e77ab6;border-radius:40px;text-decoration:none;font-weight:600;transition:.3s;}
+.btn-secondary:hover {background:#ffe6f3;}
+.section-pink {background:#fdf1f7;padding:70px 50px;text-align:center;}
+.adv-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;margin-top:30px;}
+.adv-item {padding:20px;border:1px solid #f3d6e4;border-radius:20px;background:#fff;transition:.3s;}
+.adv-item:hover {transform:translateY(-4px);box-shadow:0 4px 10px rgba(0,0,0,.06);}
+.page-header {padding:100px 50px;text-align:center;}
+.founder-section {padding:80px 50px;display:flex;gap:50px;align-items:center;}
+.founder-photo img {width:380px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,.1);}
+.reviews-section {padding:60px 50px;max-width:900px;margin:auto;}
+.review-card {border:1px solid #f3d6e4;padding:25px;border-radius:20px;margin-bottom:25px;background:#fff;transition:.3s;}
+.review-card:hover {transform:translateY(-4px);box-shadow:0 4px 12px rgba(0,0,0,.05);}
+.contacts-section {padding:60px 50px;display:flex;gap:40px;}
+.map-block iframe {width:100%;height:350px;border-radius:20px;border:none;}
+.footer {padding:40px 30px;text-align:center;border-top:1px solid #f3d6e4;}
+.fade-in {opacity:0;transform:translateY(20px);transition:1s;}
+.fade-in.visible {opacity:1;transform:translateY(0);}
+@media(max-width:900px){.founder-section{flex-direction:column;text-align:center;}.contacts-section{flex-direction:column;}.nav{display:none;}}
+.mobile-cta {display:none;}
+@media(max-width:768px){.mobile-cta{display:flex;position:fixed;bottom:0;width:100%;} .mobile-cta a{flex:1;padding:15px 0;text-align:center;background:#e77ab6;color:#fff;} }
