@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакти — Bloom Beauty Studio</title>
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакти — Bloom Beauty Studio</title>
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header class="header">
+<header class="header" style="padding:35px 70px;">
     <div class="logo">
-        <img src="assets/img/logo.png" alt="Bloom logo">
+        <img src="assets/img/logo.png" alt="Bloom logo" style="height:110px;">
     </div>
-
-    <nav class="nav">
+    <nav class="nav" style="font-size:20px;">
         <a href="index.html">Головна</a>
         <a href="services.html">Послуги</a>
         <a href="about.html">Про нас</a>
@@ -25,42 +24,67 @@
     </nav>
 </header>
 
-<section class="page-header fade-in">
-    <h1>Контакти</h1>
-    <p class="subtitle">Ми завжди поруч — записуйтеся зручно</p>
+<section class="page-header fade-in" style="padding:160px 90px; max-width:1200px; margin:auto;">
+    <h1 style="font-size:60px; margin-bottom:20px;">Контакти</h1>
+    <p class="subtitle" style="font-size:26px;">Ми завжди поруч — записуйтеся зручно</p>
 </section>
 
-<section class="contacts-section fade-in">
+<section class="contacts-section fade-in" style="padding:120px 90px; max-width:1200px; margin:auto; display:flex; gap:70px;">
 
-    <div class="contacts-block">
-        <h2>Зв’язатися з нами</h2>
+    <div class="contacts-block" style="flex:1;">
+        <h2 style="font-size:46px; margin-bottom:35px;">Зв’язатися з нами</h2>
 
-        <p><strong>Телефон:</strong> <a href="tel:+380953768725">+380 95 376 87 25</a></p>
-        <p><strong>Instagram:</strong> <a href="https://instagram.com/viktoriiyaa.__" target="_blank">@viktoriiyaa.__</a></p>
-        <p><strong>Telegram:</strong> <a href="https://t.me/vikto_riiyaa" target="_blank">@vikto_riiyaa</a></p>
+        <p style="font-size:24px; margin-bottom:15px;">
+            <strong>Телефон:</strong> 
+            <a href="tel:+380953768725" style="font-size:24px;">+380 95 376 87 25</a>
+        </p>
 
-        <h3>Адреса</h3>
-        <p>Київ, вул. Блумська, 1а</p>
+        <p style="font-size:24px; margin-bottom:15px;">
+            <strong>Instagram:</strong> 
+            <a href="https://instagram.com/viktoriiyaa.__" target="_blank" style="font-size:24px;">
+            @viktoriiyaa.__</a>
+        </p>
 
-        <h3>Графік роботи</h3>
-        <p>Щодня з 10:00 до 20:00</p>
+        <p style="font-size:24px; margin-bottom:35px;">
+            <strong>Telegram:</strong> 
+            <a href="https://t.me/vikto_riiyaa" target="_blank" style="font-size:24px;">
+            @vikto_riiyaa</a>
+        </p>
 
-        <div class="contact-buttons">
-            <a class="btn-primary" href="https://instagram.com/viktoriiyaa.__" target="_blank">Записатися в Instagram</a>
-            <a class="btn-secondary" href="https://t.me/vikto_riiyaa" target="_blank">Записатися в Telegram</a>
+        <h3 style="font-size:32px; margin-bottom:15px;">Адреса</h3>
+        <p style="font-size:24px; margin-bottom:35px;">Київ, вул. Блумська, 1а</p>
+
+        <h3 style="font-size:32px; margin-bottom:15px;">Графік роботи</h3>
+        <p style="font-size:24px; margin-bottom:50px;">Щодня з 10:00 до 20:00</p>
+
+        <div class="contact-buttons" style="display:flex; flex-direction:column; gap:25px;">
+            <a class="btn-primary" 
+               href="https://instagram.com/viktoriiyaa.__" 
+               target="_blank"
+               style="font-size:20px; padding:18px 40px; text-align:center;">
+               Записатися в Instagram
+            </a>
+
+            <a class="btn-secondary" 
+               href="https://t.me/vikto_riiyaa" 
+               target="_blank"
+               style="font-size:20px; padding:18px 40px; text-align:center;">
+               Записатися в Telegram
+            </a>
         </div>
     </div>
 
-    <div class="map-block">
+    <div class="map-block" style="flex:1;">
         <iframe 
             src="https://maps.google.com/maps?q=Kiev&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            loading="lazy">
+            loading="lazy"
+            style="width:100%; height:450px; border-radius:28px; border:none;">
         </iframe>
     </div>
 
 </section>
 
-<footer class="footer">
+<footer class="footer" style="padding:60px 30px; font-size:18px;">
     <p>© 2025 Bloom Beauty Studio. Капран Вікторія. ФЕМП 3-13. Усі права захищені.</p>
     <p>Адреса: Київ, вул. Блумська, 1а</p>
 </footer>
